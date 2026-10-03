@@ -1,0 +1,25 @@
+DDS KLayout Integration
+Copyright 2026 Altifigence.
+
+Altifigence grants the Apache License, Version 2.0, to its original integration
+source files explicitly listed in source-inventory.json, and to the original
+standalone harness, scripts and documentation in this repository. The selected
+DDS-original source grant includes the three native_klayout source files, the
+existing Linux package fixture tests, the 0.30.12 package descriptor, the five
+KLayout-specific command permission files, and the TypeScript KLayout wire
+contract. This grant covers those selected files; it does not license other DDS
+host, UI, security, WSL transport, cloud or service implementations.
+
+KLayout is a separate upstream application, copyright 2006-2026 Matthias
+Koefferlein, licensed GPL-3.0-or-later as stated by its version-specific COPYRIGHT.
+Its license and copyright notices are preserved unchanged under licenses/.
+The unchanged official source archive has its own licenses, including the MIT
+notices for bundled Cap'n Proto/KJ runtime code and macOS packaging scripts.
+Source URLs, the immutable v0.30.12 commit and archive digests are recorded in
+upstream-source.json. Upstream and dependency notices remain under their original
+licenses; the Apache-2.0 grant does not replace those licenses.
+
+No KLayout executable, binary archive, DDS application, private design, icon or
+brand asset is distributed in this Git repository. The descriptor points to the
+official upstream binary downloads. A release may attach the exact unchanged
+corresponding source archive identified in upstream-source.json.

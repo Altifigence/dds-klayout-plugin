@@ -1,0 +1,17 @@
+[package]
+name = "dds-klayout-plugin"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.91"
+license = "Apache-2.0"
+description = "The actual DDS optional KLayout package integration and standalone audit harness"
+repository = "https://github.com/Altifigence/dds-klayout-plugin"
+publish = false
+
+[dependencies]
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.143"
+sha2 = "=0.10.9"
+reqwest = { version = "=0.13.0", default-features = false, features = ["blocking", "json", "rustls"] }
+tokio = { version = "=1.52.3", features = ["macros", "net", "sync", "time"] }
+zip = { version = "=8.6.0", default-features = false, features = ["deflate"] }

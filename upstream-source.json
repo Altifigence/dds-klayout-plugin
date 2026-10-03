@@ -1,0 +1,81 @@
+{
+  "schema": "dds.klayout-upstream-source.v1",
+  "name": "KLayout",
+  "version": "0.30.12",
+  "license": "GPL-3.0-or-later",
+  "tag": "v0.30.12",
+  "commit": "e71272c3b178105bd2a2f25af54673a7af7ed60d",
+  "repository": "https://github.com/KLayout/klayout",
+  "release": "https://github.com/KLayout/klayout/releases/tag/v0.30.12",
+  "sourceArchive": {
+    "url": "https://www.klayout.org/downloads/source/klayout-0.30.12.tar.gz",
+    "releaseAssetName": "klayout-0.30.12.tar.gz",
+    "sha256": "fa747d9a4c216d0645587e05df365d5c22f73609ab98b34471372c711d8c2b75",
+    "sizeBytes": 104078293,
+    "localPath": "dist/upstream/klayout-0.30.12.tar.gz"
+  },
+  "sourceArchiveAudit": {
+    "downloaded": true,
+    "hashVerified": true,
+    "versionFileVerified": true,
+    "built": false,
+    "executedOrInstalled": false,
+    "modified": false,
+    "archiveContainsBuildScripts": [
+      "build.sh",
+      "build.bat",
+      "build4mac.py",
+      "setup.py"
+    ]
+  },
+  "notices": [
+    {
+      "path": "licenses/source/COPYRIGHT",
+      "archivePath": "klayout-0.30.12/COPYRIGHT",
+      "sha256": "47a6a4964e9d9f7b04dd1f859d6d6089720cc08645e2ddc52a0f0889c15a5b96",
+      "sizeBytes": 1045
+    },
+    {
+      "path": "licenses/source/LICENSE",
+      "archivePath": "klayout-0.30.12/LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "sizeBytes": 35141
+    },
+    {
+      "path": "licenses/source/CONTRIB",
+      "archivePath": "klayout-0.30.12/CONTRIB",
+      "sha256": "780ec60039eeb651cac620b8803749410365f90098ecc6f9fd56640942b46eeb",
+      "sizeBytes": 254
+    },
+    {
+      "path": "licenses/source/macbuild/LICENSE",
+      "archivePath": "klayout-0.30.12/macbuild/LICENSE",
+      "sha256": "e963a5e5dd36681b8d9f9ed4fae626af74157fad24017a12fdc42cf500068ec5",
+      "sizeBytes": 1463
+    },
+    {
+      "path": "licenses/source/src/plugins/streamers/lstream/runtime/capnp/LICENSE",
+      "archivePath": "klayout-0.30.12/src/plugins/streamers/lstream/runtime/capnp/LICENSE",
+      "sha256": "9564998c8d7f270a61a8b89869a8d17a9d5e3783b64027788b5e339ec8479e10",
+      "sizeBytes": 1231
+    },
+    {
+      "path": "licenses/source/src/plugins/streamers/lstream/runtime/kj/LICENSE",
+      "archivePath": "klayout-0.30.12/src/plugins/streamers/lstream/runtime/kj/LICENSE",
+      "sha256": "9564998c8d7f270a61a8b89869a8d17a9d5e3783b64027788b5e339ec8479e10",
+      "sizeBytes": 1231
+    },
+    {
+      "path": "licenses/KLayout-COPYRIGHT",
+      "url": "https://raw.githubusercontent.com/KLayout/klayout/e71272c3b178105bd2a2f25af54673a7af7ed60d/COPYRIGHT",
+      "sha256": "47a6a4964e9d9f7b04dd1f859d6d6089720cc08645e2ddc52a0f0889c15a5b96",
+      "sizeBytes": 1045
+    },
+    {
+      "path": "licenses/KLayout-LICENSE",
+      "url": "https://raw.githubusercontent.com/KLayout/klayout/e71272c3b178105bd2a2f25af54673a7af7ed60d/LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "sizeBytes": 35141
+    }
+  ]
+}

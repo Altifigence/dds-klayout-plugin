@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-change-klayout-extension"
+description = "Enables the change_klayout_extension command without any pre-configured scope."
+commands.allow = ["change_klayout_extension"]
+
+[[permission]]
+identifier = "deny-change-klayout-extension"
+description = "Denies the change_klayout_extension command without any pre-configured scope."
+commands.deny = ["change_klayout_extension"]

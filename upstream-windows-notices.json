@@ -1,0 +1,605 @@
+{
+  "schema": "dds.klayout-upstream-windows-notice-audit.v1",
+  "url": "https://www.klayout.org/downloads/Windows/klayout-0.30.12-win64.zip",
+  "expectedArchiveSha256": "1ccabcd8ef14e04bc1d3383e83d50747db845b4f9939d3b1901e20f444f9967b",
+  "expectedArchiveSizeBytes": 370182806,
+  "method": "HTTPS exact byte ranges; ZIP directory and selected notice entry CRC validation",
+  "completeArchiveHashVerified": false,
+  "executedOrInstalled": false,
+  "archiveEntries": 37979,
+  "bytesFetched": 16288406,
+  "dllNames": [
+    "Qt5Core.dll",
+    "Qt5DBus.dll",
+    "Qt5Designer.dll",
+    "Qt5Gui.dll",
+    "Qt5Help.dll",
+    "Qt5Location.dll",
+    "Qt5Multimedia.dll",
+    "Qt5MultimediaWidgets.dll",
+    "Qt5Network.dll",
+    "Qt5OpenGL.dll",
+    "Qt5Positioning.dll",
+    "Qt5PositioningQuick.dll",
+    "Qt5PrintSupport.dll",
+    "Qt5Qml.dll",
+    "Qt5QmlModels.dll",
+    "Qt5Quick.dll",
+    "Qt5QuickWidgets.dll",
+    "Qt5Sensors.dll",
+    "Qt5Sql.dll",
+    "Qt5Svg.dll",
+    "Qt5Test.dll",
+    "Qt5WebChannel.dll",
+    "Qt5WebKit.dll",
+    "Qt5WebKitWidgets.dll",
+    "Qt5Widgets.dll",
+    "Qt5Xml.dll",
+    "Qt5XmlPatterns.dll",
+    "bool_ui.dll",
+    "cif.dll",
+    "cif_ui.dll",
+    "common_ui.dll",
+    "d25_ui.dll",
+    "density_map_ui.dll",
+    "diff_ui.dll",
+    "dxf.dll",
+    "dxf_ui.dll",
+    "freeglut32.vc10.dll",
+    "freeglut32.vc14.dll",
+    "freeglut32.vc9.dll",
+    "freeglut64.vc10.dll",
+    "freeglut64.vc14.dll",
+    "freeglut64.vc9.dll",
+    "gds2.dll",
+    "gds2_ui.dll",
+    "gle32.vc10.dll",
+    "gle32.vc14.dll",
+    "gle32.vc9.dll",
+    "gle64.vc10.dll",
+    "gle64.vc14.dll",
+    "gle64.vc9.dll",
+    "imagequant.dll",
+    "import_ui.dll",
+    "klayout_QtCore.dll",
+    "klayout_QtDesigner.dll",
+    "klayout_QtGui.dll",
+    "klayout_QtMultimedia.dll",
+    "klayout_QtNetwork.dll",
+    "klayout_QtPrintSupport.dll",
+    "klayout_QtSql.dll",
+    "klayout_QtSvg.dll",
+    "klayout_QtUiTools.dll",
+    "klayout_QtWidgets.dll",
+    "klayout_QtXml.dll",
+    "klayout_QtXmlPatterns.dll",
+    "klayout_ant.dll",
+    "klayout_bd.dll",
+    "klayout_db.dll",
+    "klayout_doc.dll",
+    "klayout_drc.dll",
+    "klayout_edt.dll",
+    "klayout_gsi.dll",
+    "klayout_icons.dll",
+    "klayout_img.dll",
+    "klayout_lay.dll",
+    "klayout_laybasic.dll",
+    "klayout_layui.dll",
+    "klayout_layview.dll",
+    "klayout_lib.dll",
+    "klayout_lvs.dll",
+    "klayout_lym.dll",
+    "klayout_pex.dll",
+    "klayout_pya.dll",
+    "klayout_qtbasic.dll",
+    "klayout_rba.dll",
+    "klayout_rdb.dll",
+    "klayout_tl.dll",
+    "lay_plugin.dll",
+    "lefdef.dll",
+    "lefdef_ui.dll",
+    "libLerc.dll",
+    "libbrotlicommon.dll",
+    "libbrotlidec.dll",
+    "libbz2-1.dll",
+    "libcrypto-3-x64.dll",
+    "libdbus-1-3.dll",
+    "libdeflate.dll",
+    "libdouble-conversion.dll",
+    "libexpat-1.dll",
+    "libexslt-0.dll",
+    "libffi-8.dll",
+    "libfreetype-6.dll",
+    "libfribidi-0.dll",
+    "libgcc_s_seh-1.dll",
+    "libgfortran-5.dll",
+    "libgit2-1.7.dll",
+    "libglib-2.0-0.dll",
+    "libgmp-10.dll",
+    "libgomp-1.dll",
+    "libgraphite2.dll",
+    "libharfbuzz-0.dll",
+    "libhttp_parser-2.dll",
+    "libiconv-2.dll",
+    "libicudt73.dll",
+    "libicuin73.dll",
+    "libicuuc73.dll",
+    "libintl-8.dll",
+    "libjasper.dll",
+    "libjbig-0.dll",
+    "libjpeg-8.dll",
+    "liblcms2-2.dll",
+    "liblzma-5.dll",
+    "libmd4c.dll",
+    "libmng-2.dll",
+    "libmpdec-2.dll",
+    "libncursesw6.dll",
+    "libopenblas.dll",
+    "libopenjp2-7.dll",
+    "libpanelw6.dll",
+    "libpcre2-16-0.dll",
+    "libpcre2-8-0.dll",
+    "libpng16-16.dll",
+    "libpython3.11.dll",
+    "libqhull_r.dll",
+    "libquadmath-0.dll",
+    "libraqm-0.dll",
+    "libreadline8.dll",
+    "libsharpyuv-0.dll",
+    "libsqlite3-0.dll",
+    "libssh2-1.dll",
+    "libssl-3-x64.dll",
+    "libstdc++-6.dll",
+    "libtermcap-0.dll",
+    "libtiff-6.dll",
+    "libwebp-7.dll",
+    "libwebpdemux-2.dll",
+    "libwebpmux-3.dll",
+    "libwinpthread-1.dll",
+    "libwoff2common.dll",
+    "libwoff2dec.dll",
+    "libxml2-2.dll",
+    "libxslt-1.dll",
+    "libyaml-0-2.dll",
+    "libzstd.dll",
+    "lstream.dll",
+    "mag.dll",
+    "mag_ui.dll",
+    "maly.dll",
+    "maly_ui.dll",
+    "mebes.dll",
+    "mebes_ui.dll",
+    "net_tracer.dll",
+    "net_tracer_ui.dll",
+    "oasis.dll",
+    "oasis_ui.dll",
+    "pcb.dll",
+    "pcb_ui.dll",
+    "qgif.dll",
+    "qicns.dll",
+    "qico.dll",
+    "qjp2.dll",
+    "qjpeg.dll",
+    "qminimal.dll",
+    "qmng.dll",
+    "qoffscreen.dll",
+    "qsqlibase.dll",
+    "qsqlite.dll",
+    "qsqlmysql.dll",
+    "qsqlodbc.dll",
+    "qsqlpsql.dll",
+    "qsvg.dll",
+    "qsvgicon.dll",
+    "qtaudio_windows.dll",
+    "qtga.dll",
+    "qtiff.dll",
+    "qtuiotouchplugin.dll",
+    "qwbmp.dll",
+    "qwebp.dll",
+    "qwindows.dll",
+    "tcl86.dll",
+    "tk86.dll",
+    "windowsprintersupport.dll",
+    "x64-msvcrt-ruby310.dll",
+    "xor_ui.dll",
+    "zlib1.dll"
+  ],
+  "notices": [
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/LICENSE.txt",
+      "sizeBytes": 13936,
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/attrs-23.1.0.dist-info/licenses/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/attrs-23.1.0.dist-info/licenses/LICENSE",
+      "sizeBytes": 1109,
+      "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/cachecontrol-0.13.1.dist-info/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/cachecontrol-0.13.1.dist-info/LICENSE.txt",
+      "sizeBytes": 558,
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/certifi-2023.7.22.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/certifi-2023.7.22.dist-info/LICENSE",
+      "sizeBytes": 1052,
+      "sha256": "a02f6c638f9fb84d06f7764c3ab085d8af7eda5b93c166da54312479077c6fb0"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/chardet-5.2.0.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/chardet-5.2.0.dist-info/LICENSE",
+      "sizeBytes": 26530,
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/charset_normalizer-3.3.1.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/charset_normalizer-3.3.1.dist-info/LICENSE",
+      "sizeBytes": 1070,
+      "sha256": "eb31a0c5a4fb09b8a4e32055d25c1e5f9c358a2752fef3cd720213d1ccfee241"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+      "sizeBytes": 1491,
+      "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/contourpy-1.2.0.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/contourpy-1.2.0.dist-info/LICENSE",
+      "sizeBytes": 1534,
+      "sha256": "c2522156ba7d4dfbbec266dfea98bf76a69bc41edb18cad323177fad6b19b35f"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/cycler-0.12.0.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/cycler-0.12.0.dist-info/LICENSE",
+      "sizeBytes": 1497,
+      "sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/distlib-0.3.7.dist-info/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/distlib-0.3.7.dist-info/LICENSE.txt",
+      "sizeBytes": 14531,
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/et_xmlfile-1.1.0.dist-info/LICENCE.rst",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/et_xmlfile-1.1.0.dist-info/LICENCE.rst",
+      "sizeBytes": 1694,
+      "sha256": "afe62b360cdca81fb8de6ee4b7610da1d86c391777a80c7acb6d11455c53c429"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/fonttools-4.44.0.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/fonttools-4.44.0.dist-info/LICENSE",
+      "sizeBytes": 1072,
+      "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/idna-3.4.dist-info/LICENSE.md",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/idna-3.4.dist-info/LICENSE.md",
+      "sizeBytes": 1523,
+      "sha256": "a2d6e4d940bd24dbe7b9645cde19a9792cc51db7ae0d5acd301ac860caa3e836"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+      "sizeBytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+      "sizeBytes": 5476,
+      "sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE",
+      "sizeBytes": 4830,
+      "sha256": "5a1a81ea301728c8bba2933da832c0cd62229daf20893a024ab3d53244468dbc"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_AMSFONTS",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_AMSFONTS",
+      "sizeBytes": 12675,
+      "sha256": "155141d59877f338f6e1c0805de9b79964dce71fe5d2a56c44e38b2c0f7e35ee"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_BAKOMA",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_BAKOMA",
+      "sizeBytes": 1440,
+      "sha256": "93adb2b53c02b7ce06b26bff41358c21248f42fed287b633ec4c31038377cdbb"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_CARLOGO",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_CARLOGO",
+      "sizeBytes": 4455,
+      "sha256": "61902d5eef34dd24870b7287a96260d3328233b96f7202bf70ad6e2a0da2de3f"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_COLORBREWER",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_COLORBREWER",
+      "sizeBytes": 695,
+      "sha256": "01173653fe745ce2124ec156d78b460582d2a719d2d9212804267e95fd2c97e7"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_COURIERTEN",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_COURIERTEN",
+      "sizeBytes": 802,
+      "sha256": "ac81f717aaff9456b88010fc55382a8dff199e4c4bcc5d61e040c3f7063beb43"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_JSXTOOLS_RESIZE_OBSERVER",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_JSXTOOLS_RESIZE_OBSERVER",
+      "sizeBytes": 6799,
+      "sha256": "597756adcb51f243ef4fb386920377f61d012ace0904364e1a8ee9aaec6afc84"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_QHULL",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_QHULL",
+      "sizeBytes": 1720,
+      "sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_QT4_EDITOR",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_QT4_EDITOR",
+      "sizeBytes": 1230,
+      "sha256": "b2b50ca8b6172aca23095adf15db89d3727e9ef2d6ef0178e427234011bed3cd"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_SOLARIZED",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_SOLARIZED",
+      "sizeBytes": 1121,
+      "sha256": "12d5327fbc4df845a86883de99ed5fdf4198445d56dbacdf5fad8f0efdc97513"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_STIX",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_STIX",
+      "sizeBytes": 3914,
+      "sha256": "4cc3efba3a3a604eb6f937211e46da1e2148830056a6e09bcc19df4170d252a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_YORICK",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/matplotlib-3.8.0.dist-info/LICENSE_YORICK",
+      "sizeBytes": 2313,
+      "sha256": "cab753d38c093651e8deb5abb684e3ed68020e0e418034f94d79e890dc7ae84d"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/numpy/core/include/numpy/random/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/numpy/core/include/numpy/random/LICENSE.txt",
+      "sizeBytes": 1018,
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/numpy/ma/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/numpy/ma/LICENSE",
+      "sizeBytes": 1593,
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/numpy/random/LICENSE.md",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/numpy/random/LICENSE.md",
+      "sizeBytes": 3511,
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/numpy-1.26.1.dist-info/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/numpy-1.26.1.dist-info/LICENSE.txt",
+      "sizeBytes": 1543,
+      "sha256": "263223390c43a9d4a0841e0209265fd927a198f8e89c8eee809b7437d7e5e8c2"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/OpenGL/DLLS/freeglut_COPYING.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/OpenGL/DLLS/freeglut_COPYING.txt",
+      "sizeBytes": 1466,
+      "sha256": "d4ff2334437455513889b16f1ba94165e4d32287841e6e1ee856442a155d9e99"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/OpenGL/DLLS/gle_COPYING",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/OpenGL/DLLS/gle_COPYING",
+      "sizeBytes": 19125,
+      "sha256": "8846082ee877f8399cd3072ed5a22215c54728005da6d13d71fa922021c3937b"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/OpenGL/DLLS/gle_COPYING.src",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/OpenGL/DLLS/gle_COPYING.src",
+      "sizeBytes": 3261,
+      "sha256": "17c3504e92fa17b916f2ae09e9c192263a68bd8f1429e18de8a809bba46cf82d"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/openpyxl-3.1.5.dist-info/LICENCE.rst",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/openpyxl-3.1.5.dist-info/LICENCE.rst",
+      "sizeBytes": 1131,
+      "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/packaging-23.2.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/packaging-23.2.dist-info/LICENSE",
+      "sizeBytes": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/packaging-23.2.dist-info/LICENSE.APACHE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/packaging-23.2.dist-info/LICENSE.APACHE",
+      "sizeBytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/packaging-23.2.dist-info/LICENSE.BSD",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/packaging-23.2.dist-info/LICENSE.BSD",
+      "sizeBytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/pip-23.3.1.dist-info/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/pip-23.3.1.dist-info/LICENSE.txt",
+      "sizeBytes": 1093,
+      "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/PyOpenGL-3.1.7.dist-info/license.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/PyOpenGL-3.1.7.dist-info/license.txt",
+      "sizeBytes": 11678,
+      "sha256": "d37ec6e00a4f88bf80ec0b7b3b9dbea88534c1c66c2f529dc64c7c02e07a6a1b"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/pyparsing-3.1.1.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/pyparsing-3.1.1.dist-info/LICENSE",
+      "sizeBytes": 1023,
+      "sha256": "10d5120a16805804ffda8b688c220bfb4e8f39741b57320604d455a309e01972"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/PyQt5_sip-12.13.0.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/PyQt5_sip-12.13.0.dist-info/LICENSE",
+      "sizeBytes": 2766,
+      "sha256": "2c93b5d4af4cfdfe8d7551b2bfe971e39deb37a8ae2d40765f3fd63846418c63"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/PyQt5_sip-12.13.0.dist-info/LICENSE-GPL2",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/PyQt5_sip-12.13.0.dist-info/LICENSE-GPL2",
+      "sizeBytes": 18161,
+      "sha256": "7ebb61006e46b9e9340dd135d5f4afbbcb1d1d6c6709f74473b35929007b9aeb"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/PyQt5_sip-12.13.0.dist-info/LICENSE-GPL3",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/PyQt5_sip-12.13.0.dist-info/LICENSE-GPL3",
+      "sizeBytes": 35297,
+      "sha256": "63cb5f5c1ea39b732c495f354f971e40f6db84c567ca5573a68bb65af07741f8"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/requests-2.31.0.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/requests-2.31.0.dist-info/LICENSE",
+      "sizeBytes": 10142,
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/fft/_pocketfft/LICENSE.md",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/fft/_pocketfft/LICENSE.md",
+      "sizeBytes": 1498,
+      "sha256": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/sparse/linalg/_eigen/arpack/COPYING",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/sparse/linalg/_eigen/arpack/COPYING",
+      "sizeBytes": 1892,
+      "sha256": "0926566f9f406178d1214f8cc796e166b1213dd7c05e0c5b461a8b8ac9e50bbe"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/spatial/qhull_src/COPYING.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/spatial/qhull_src/COPYING.txt",
+      "sizeBytes": 1635,
+      "sha256": "34db0c0c4f931861d720555c9cd7a2e228d1290ba29af0f2ee80c41bb2038afb"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/_lib/_uarray/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/scipy/_lib/_uarray/LICENSE",
+      "sizeBytes": 1514,
+      "sha256": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/setuptools-68.2.2.dist-info/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/setuptools-68.2.2.dist-info/LICENSE",
+      "sizeBytes": 1023,
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/python3.11/site-packages/XlsxWriter-3.1.2.dist-info/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/python3.11/site-packages/XlsxWriter-3.1.2.dist-info/LICENSE.txt",
+      "sizeBytes": 1349,
+      "sha256": "b3b494c7e7456dad12ac1b3e61c60e850d60d3ce865fa056c4ce0ae680c03677"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/3.1.0/bundler/templates/newgem/LICENSE.txt.tt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/3.1.0/bundler/templates/newgem/LICENSE.txt.tt",
+      "sizeBytes": 1105,
+      "sha256": "b587390e87dc1a8a3ee5bba7c5841b9b2c0c51521ba09ccd862863d45fdd3a1d"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/debug-1.6.3/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/debug-1.6.3/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/matrix-0.4.2/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/matrix-0.4.2/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-ftp-0.1.3/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-ftp-0.1.3/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-imap-0.2.3/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-imap-0.2.3/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-pop-0.1.1/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-pop-0.1.1/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-smtp-0.3.1/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/net-smtp-0.3.1/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/power_assert-2.0.1/COPYING",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/power_assert-2.0.1/COPYING",
+      "sizeBytes": 2465,
+      "sha256": "245c18c292dfcc2cb0aa68d27756ae660a71e8120801b092fa4663e1b8b696cc"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/prime-0.1.2/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/prime-0.1.2/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rake-13.0.6/MIT-LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rake-13.0.6/MIT-LICENSE",
+      "sizeBytes": 1051,
+      "sha256": "3e8179ae8e3354a22ad6c9f08a81ac2e7e39cf7b65c7dd97895cb23bf22cd48c"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rbs-2.7.0/COPYING",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rbs-2.7.0/COPYING",
+      "sizeBytes": 2432,
+      "sha256": "ce18e8cf25116b1337ec71be21379ca2deb6a0468a09426135fa22744aeff162"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rexml-3.2.5/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rexml-3.2.5/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rss-0.2.9/LICENSE.txt",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/rss-0.2.9/LICENSE.txt",
+      "sizeBytes": 1282,
+      "sha256": "a5e3042dacb53eebda91f3b1caefbfec8307711df8c4ed1ed20e4e97c43307a4"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/test-unit-3.5.3/COPYING",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/test-unit-3.5.3/COPYING",
+      "sizeBytes": 2593,
+      "sha256": "c44a8750bdf1bbeb20d3a34a72a613f74cfa103d76def85f2893ad3658fdc298"
+    },
+    {
+      "archivePath": "klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/typeprof-0.21.3/LICENSE",
+      "path": "licenses/windows/klayout-0.30.12-win64/lib/ruby/gems/3.1.0/gems/typeprof-0.21.3/LICENSE",
+      "sizeBytes": 1079,
+      "sha256": "95cd21d4a07b334e02652b823c3f2f95bde5b0e361190da46769ba4e95d4d328"
+    }
+  ]
+}

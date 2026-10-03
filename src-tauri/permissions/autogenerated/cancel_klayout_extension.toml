@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-cancel-klayout-extension"
+description = "Enables the cancel_klayout_extension command without any pre-configured scope."
+commands.allow = ["cancel_klayout_extension"]
+
+[[permission]]
+identifier = "deny-cancel-klayout-extension"
+description = "Denies the cancel_klayout_extension command without any pre-configured scope."
+commands.deny = ["cancel_klayout_extension"]

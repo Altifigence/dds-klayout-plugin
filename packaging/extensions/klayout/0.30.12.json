@@ -1,0 +1,34 @@
+{
+  "schema": "altifigence.optional-tool-package.v1",
+  "id": "org.klayout.viewer",
+  "version": "0.30.12",
+  "publisher": "KLayout / Matthias Koefferlein",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.klayout.de/",
+  "licenseUrl": "https://github.com/KLayout/klayout/blob/e71272c3b178105bd2a2f25af54673a7af7ed60d/COPYRIGHT",
+  "sourceUrl": "https://www.klayout.org/downloads/source/klayout-0.30.12.tar.gz",
+  "qualification": "optional-external-viewer-only",
+  "packages": {
+    "windows-x86_64": {
+      "url": "https://www.klayout.org/downloads/Windows/klayout-0.30.12-win64.zip",
+      "sha256": "1ccabcd8ef14e04bc1d3383e83d50747db845b4f9939d3b1901e20f444f9967b",
+      "upstreamMd5": "e1faa8a419f85579daf187e23f39c71c",
+      "sizeBytes": 370182806,
+      "archiveRoot": "klayout-0.30.12-win64",
+      "executable": "klayout_app.exe",
+      "expandedSizeBytes": 1073721030
+    },
+    "ubuntu24-x86_64": {
+      "url": "https://www.klayout.org/downloads/Ubuntu-24/klayout_0.30.12-1_amd64.deb",
+      "sha256": "23480767fec91bc9a15e075a9bd6906ba85cd7fdda8b4040dde4ffc95c26a742",
+      "upstreamMd5": "0181713e60891e461d6d1664c1b8e213",
+      "sizeBytes": 66174790,
+      "package": "klayout",
+      "packageVersion": "0.30.12-1",
+      "architecture": "amd64",
+      "executable": "usr/bin/klayout",
+      "expandedSizeBytes": 225713964,
+      "dependencies": ["libqt5core5t64", "libqt5designer5", "libqt5gui5t64", "libqt5multimedia5", "libqt5multimediawidgets5", "libqt5network5t64", "libqt5opengl5t64", "libqt5printsupport5t64", "libqt5sql5t64", "libqt5svg5", "libqt5widgets5t64", "libqt5xml5t64", "libqt5xmlpatterns5", "zlib1g", "libgit2-1.7", "libruby3.2", "python3", "libpython3.12", "libstdc++6", "libc6"]
+    }
+  }
+}

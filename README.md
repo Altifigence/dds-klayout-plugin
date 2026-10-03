@@ -1,5 +1,7 @@
 # DDS KLayout integration
 
+[Official integration guide](https://docs.altifigence.com/products/digital-design-studio/plugins/) · [한국어](https://docs.altifigence.com/ko-kr/products/digital-design-studio/plugins/) · [Build a DDS plugin](https://docs.altifigence.com/developers/plugin-sdk/) · [Releases](https://github.com/Altifigence/dds-klayout-plugin/releases)
+
 The actual source of Digital Design Studio's optional **KLayout 0.30.12** viewer
 integration, released under Apache-2.0. It installs a pinned official external
 viewer in DDS-owned user storage and opens a saved GDSII/OASIS file through a
